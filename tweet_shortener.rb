@@ -23,7 +23,7 @@ tweet.each do |word|
       word = value
     end
   end
-  word.join(" ")
+  word.join("")
 end
 end
   
