@@ -21,9 +21,9 @@ tweet.each do |word|
   dictionary.each do |key, value|
     if word === key
       word = value
+      word.join("")
     end
   end
-  word.join("")
 end
 end
   
