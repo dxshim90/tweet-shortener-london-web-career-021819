@@ -23,6 +23,7 @@ tweets.each do |word|
     end
   end
 end
+end
 end  
   
   
