@@ -25,5 +25,6 @@ tweet.each do |word|
   end
   word.join(" ")
 end
+end
   
   
