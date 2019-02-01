@@ -21,6 +21,7 @@ tweets.split.each do |words|
   dictionary.each do |original, replacement|
     if word == original
       word = replacement
+      
 end
   
   
