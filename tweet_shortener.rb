@@ -16,15 +16,11 @@ dictionary = {
 end
 
 def word_substituter(tweets)
-tweet = tweets.split
-tweet.each do |word|
-  dictionary.each do |key, value|
-    if word === key
-      word = value
-      word.join("")
-    end
-  end
-end
+newarr = []
+tweets.split.each do |words|
+  dictionary.each do |original, replacement|
+    if word == original
+      
 end
   
   
