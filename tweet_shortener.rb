@@ -24,7 +24,7 @@ tweets.split.each do |words|
       newarr << words
     end
   end
-  newarr
+  newarr.join("")
 end
 end
   
