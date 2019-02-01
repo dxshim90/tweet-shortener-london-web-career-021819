@@ -15,17 +15,17 @@ dictionary = {
 }
 end
 
-def word_substituter(tweets)
-newarr = []
-tweets.split(" ").each do |words|
-  dictionary.each do |original, replacement|
-    if words.downcase == original.to_s
-      words = replacement
-     end
-      newarr << words
-  end
-  newarr.join("")
-end
+def word_substituter(tweet)
+  newarr = [] 
+    tweet.split(" ").each do |word|
+      dictionary.each do |original,replacement|
+        if word.downcase == original.to_s
+          word = replacement
+        end
+      end
+      newarr << word 
+    end
+  newarr.join(" ") 
 end
   
   
