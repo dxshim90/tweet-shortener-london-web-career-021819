@@ -20,7 +20,7 @@ newarr = []
 tweets.split(" ").each do |words|
   dictionary.each do |original, replacement|
     if words.downcase == original.to_s
-      word = replacement
+      words = replacement
       newarr << words
     end
   end
