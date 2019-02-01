@@ -21,8 +21,8 @@ tweets.split("").each do |word|
     if word === original 
       word = replacement
   end
+  word.join(" ")
 end
-word.join(" ")
 end
 end 
   
