@@ -16,6 +16,7 @@ dictionary = {
 end
 
 def word_substituter(tweets)
-tweet = 
+tweet = tweets.split
+
   
   
