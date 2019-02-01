@@ -24,6 +24,6 @@ tweets.split("").each do |word|
 end
 end
 words.join(" ")
-  end 
+end 
   
   
