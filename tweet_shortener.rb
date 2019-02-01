@@ -21,5 +21,6 @@ tweet.each do |word|
   dictionary.each do |key, value|
     if word === key
       word = value
+    end
   
   
