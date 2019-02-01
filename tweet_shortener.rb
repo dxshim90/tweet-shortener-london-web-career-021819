@@ -19,7 +19,7 @@ def word_substituter(tweets)
 tweets.split("").each do |word| 
   dictionary.each do |original, replacement|
     if word === original 
-      words = replacement
+      word = replacement
   end
 end
 end
