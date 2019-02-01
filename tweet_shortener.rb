@@ -21,8 +21,8 @@ tweets.split(" ").each do |words|
   dictionary.each do |original, replacement|
     if words.downcase == original.to_s
       words = replacement
+     end
       newarr << words
-    end
   end
   newarr.join("")
 end
