@@ -22,5 +22,8 @@ tweet.each do |word|
     if word === key
       word = value
     end
+  end
+  word.join(" ")
+end
   
   
