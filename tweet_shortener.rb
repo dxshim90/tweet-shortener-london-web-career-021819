@@ -23,7 +23,7 @@ tweets.split("").each do |word|
   end
 end
 end
-words.join(" ")
+word.join(" ")
 end 
   
   
