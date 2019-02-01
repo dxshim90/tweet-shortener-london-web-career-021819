@@ -17,7 +17,7 @@ end
 
 def word_substituter(tweets)
 newarr = []
-tweets.split.each do |words|
+tweets.split(" ").each do |words|
   dictionary.each do |original, replacement|
     if words.downcase == original.to_s
       word = replacement
