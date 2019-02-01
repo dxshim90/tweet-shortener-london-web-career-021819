@@ -21,7 +21,7 @@ tweets.split.each do |words|
   dictionary.each do |original, replacement|
     if words == original
       word = replacement
-      newarr << word
+      newarr << words
     end
   end
   newarr
